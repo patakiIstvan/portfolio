@@ -1,0 +1,23 @@
+.footer {
+  background-color: #222;
+  background: linear-gradient(#222, #111);
+
+  .icon__container {
+    padding: 30px 0 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .footer__icon {
+    width: 40px;
+    height: 40px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+}

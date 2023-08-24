@@ -1,4 +1,4 @@
-import '../_assets/styles/global.scss'
+import '../_assets/styles/index.scss'
 import { Inter } from 'next/font/google'
 import Navbar from '../_components/secions/navbar/Navbar'
 import Footer from '../_components/secions/footer/Footer'

@@ -1,0 +1,15 @@
+.relative-section {
+  width: 100%;
+  position: relative;
+  top: 70px;
+}
+
+.section {
+  padding: 0 var(--sectionWidth);
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
