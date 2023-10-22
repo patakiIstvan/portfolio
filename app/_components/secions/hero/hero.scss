@@ -2,8 +2,9 @@
   background-color: #222;
   background-size: 800px 600px;
   position: relative;
+  padding-top: var(--navHeight);
 
-  &__container {
+  .hero__container {
     display: flex;
     align-items: center;
     padding: 150px 0 200px;
@@ -99,12 +100,9 @@
     fill: #FFFFFF;
   }
 
-  // svg end
 
-  // RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
-  // RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
 
-  @media(max-width: 1100px) {
+  @media screen and (max-width: 1100px) {
     .left {
       h1 {
         font-size: 33px;
@@ -129,7 +127,7 @@
     }
   }
 
-  @media(max-width: var(--mSize)) {
+  @media screen and (max-width: 750px) {
     &__container {
       flex-direction: column-reverse;
       padding: 100px 0 200px;
@@ -166,4 +164,14 @@
 
   }
 
+}
+
+.divier1{
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  border-top: 115px solid transparent;
+  border-left: 100vw solid #FFFFFF;
 }

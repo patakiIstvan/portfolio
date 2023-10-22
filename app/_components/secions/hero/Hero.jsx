@@ -11,8 +11,8 @@ function Hero({ shirtColor }) {
       <div className="hero__container">
         <div className="left">
           <h1>Hey, I'm Pisti!</h1>
-          <p>I'm a front-end developer making scalable responsive websites.</p>
-          <a href={CV} download="Resume István Pataki">Download CV</a>
+          <p>I'm a full stack developer making scalable responsive websites.</p>
+          <a href="/assets/pdf/resume_en.pdf" download="Resume István Pataki">Download CV</a>
         </div>
         <div className="right">
           <div className="img__container">
@@ -21,12 +21,7 @@ function Hero({ shirtColor }) {
           </div>
         </div>
       </div>
-
-      <div class="custom-shape-divider-bottom-1640210528">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-        </svg>
-      </div>
+      <div className="divier1"></div>
 
     </section>
   );

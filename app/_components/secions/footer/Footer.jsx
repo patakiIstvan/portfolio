@@ -7,7 +7,7 @@ import './footer.scss'
 
 function Footer() {
   return (
-    <footer id="footer" class="footer section">
+    <footer id="footer" className="footer section">
       <div className="icon__container">
         <a href="https://linkedin.com/in/patakiistvan">
           <Image src={linkedinIcon} alt="icon" className="footer__icon" placeholder="blur" />
