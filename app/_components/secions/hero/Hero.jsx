@@ -3,6 +3,7 @@ import React from 'react';
 import './hero.scss';
 import Image from 'next/image';
 import websiteOwner from '../../../_assets/images/profilePicLong.jpg'
+import HeroShirt from './HeroShirt';
 
 
 function Hero({ shirtColor }) {
@@ -17,7 +18,7 @@ function Hero({ shirtColor }) {
         <div className="right">
           <div className="img__container">
             <Image className="img__human" src={websiteOwner} alt="A picture of your future employee." width="300" height="500" />
-            {/* <img className="img__shirt" style={{ filter: `hue-rotate(${String(shirtColor.hue)}deg) saturate(${String(shirtColor.sat)}) brightness(${String(shirtColor.br)})` }} src="/assets/images/ruha.png" alt="A pic of of the human's shirt. It looks cool." /> */}
+            <HeroShirt/>
           </div>
         </div>
       </div>

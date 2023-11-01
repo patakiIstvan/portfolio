@@ -1,0 +1,52 @@
+.project__card {
+  background-color: #F0F0F0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #E0E0E0;
+  }
+
+  .project__img {
+    width: 100%;
+    // aspect-ratio: calc(1600 / 700);
+    height: auto;
+    margin-bottom: .75rem;
+  }
+
+  .info-container {
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+
+  .project__description {
+    font-size: 18px;
+    color: #444;
+    border-bottom: 1px solid black;
+    text-align: justify;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+  }
+
+
+  .tech__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tech__text {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3px 7px;
+    border-radius: 9999px;
+  }
+}

@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar/>
-        {children}
+          <main style={{overflowX: "hidden"}}>
+            {children}
+          </main>
         <Footer/>
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>        </body>
     </html>

@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import Hero from '../_components/secions/hero/Hero'
+import Projects from '../_components/secions/projects/Projects'
 
 export default function Home() {
   return (
-   <main>
+   <>
     <Hero/>
-   </main>
+    <Projects/>
+   </>
   )
 }
