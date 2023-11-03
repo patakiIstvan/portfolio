@@ -4,7 +4,7 @@ import pomodoroPic from '../_assets/images/project_gpomodoro.png';
 import smartcityPic from '../_assets/images/project_smartcity.png';
 import projectPic from '../_assets/images/project_projects.png';
 
-export const projectData = [
+export const projectData = [ 
   {
     title: "Personal portfolio",
     desc: "A brief introduction of me and my projects, which I intend to keep up to date",
