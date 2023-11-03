@@ -10,7 +10,7 @@ export const projectData = [
     desc: "A brief introduction of me and my projects, which I intend to keep up to date",
     github: "https://github.com/patakiIstvan/portfolio_next13",
     pic: portfolioPic,
-    tech: ["HTML", "CSS/SCSS", "javascript", "react.js"],
+    tech: ["HTML", "CSS/SCSS", "javascript", "react.js","next.js"],
     category: ["new"]
   },
   {
@@ -18,7 +18,7 @@ export const projectData = [
     desc: "An abstract multi step form including type and input validation",
     github: "https://github.com/patakiIstvan/ts_projects_dashboard",
     pic: projectPic,
-    tech: ["HTML", "CSS/SCSS", "javascript", "react.js","typescript"],
+    tech: ["HTML", "CSS/SCSS", "javascript", "react.js","typescript","bootstrap"],
     category: ["new"]
   },
   {
