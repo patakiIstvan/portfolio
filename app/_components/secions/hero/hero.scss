@@ -74,6 +74,7 @@
     .img__shirt {
       position: absolute;
       z-index: 10;
+      transition : filter 0.5s linear;
     }
   }
 
