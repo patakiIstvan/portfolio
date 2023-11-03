@@ -74,8 +74,9 @@ const HeroShirt = () => {
       setActivateMouseMove(isVisible)
     }
   }
-
-  window.onscroll = scrollFunction;
+  if (typeof window !== 'undefined') {
+    window.onscroll = scrollFunction;
+  }
   return (
     <>
       {/* <Image className="img__shirt" style={{ filter: `hue-rotate(${String(shirtColor.hue)}deg) saturate(${String(shirtColor.sat)}) brightness(${String(shirtColor.br)})` }} src="/assets/images/ruha.png" alt="A pic of of the human's shirt. It looks cool." /> */}
