@@ -18,6 +18,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6G2CQXWW0W"></script>
+      <Script
+      dangerouslySetInnerHTML={{
+        __html: `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6G2CQXWW0W');`}}
+      />
       <Script type="text/javascript"
       dangerouslySetInnerHTML={{
         __html: `(function(c,l,a,r,i,t,y){
@@ -34,7 +44,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
         <Footer/>
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>        </body>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></cript>        </body>
     </html>
   )
 }
