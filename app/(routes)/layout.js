@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <Head>
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-6G2CQXWW0W"></script>
-      <Script
+      <cript
       dangerouslySetInnerHTML={{
         __html: `window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
         <Footer/>
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></cript>        </body>
+      </body>
     </html>
   )
 }
