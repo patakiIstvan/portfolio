@@ -1,8 +1,12 @@
 "use client"
 import React, { Fragment } from 'react'
 import './resumeVersion.scss';
+import { useSearchParams } from 'next/navigation'
 
-const ResumeVersion = ({ version }) => {
+const ResumeVersion = () => {
+  const searchParams = useSearchParams()
+
+  const version = searchParams.get('v')
 
   const upToDateDisplay = <><div className=" section upper-section up-to-date-section">
     <div className="download-updated-container">
