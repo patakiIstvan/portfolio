@@ -9,7 +9,22 @@
   width: 100%;
 }
 
+.stretchHeight{
+  min-height: calc(100vh - var(--footerHeight));
+  padding-top: var(--navHeight);
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.triangle-divier{
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  border-top: 115px solid transparent;
+  border-left: 100vw solid #FFFFFF;
 }

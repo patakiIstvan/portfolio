@@ -22,7 +22,7 @@ function Hero({ shirtColor }) {
           </div>
         </div>
       </div>
-      <div className="divier1"></div>
+      <div className="triangle-divier"></div>
 
     </section>
   );
