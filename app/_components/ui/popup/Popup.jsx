@@ -23,6 +23,10 @@ const Popup = () => {
     },
     a: {
       updates: ["Learned typescript"],
+      next: "b"
+    },
+    b: {
+      updates: ["Extended backed knowledge with Node.js and express", "I gained deeper understanding of bootstrap since its needed for shadcn ui."],
       next: null
     }
   }
